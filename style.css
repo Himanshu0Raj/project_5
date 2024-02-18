@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+   
+    
+   
+      font-family: "Catamaran", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+    
+    /* background: red; */
+   
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    /* background: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navleft{
+    /* font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
+    font-weight: 100;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+#navleft h1:hover{
+    font-size: 1.9rem;
+    transition-duration: 0.3s;
+
+}
+#navright{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+#navright a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-right: 30px;
+
+}
+#navright a:hover{
+    text-decoration: underline rgb(15, 245, 15);
+}
+#contact{
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#contact:hover{
+    background-color: rgb(15, 245, 15);
+   cursor: pointer;
+}
+#profile{
+    display: flex;
+}
+#image1 img{
+    width: 350px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 130px;
+
+}
+#image2 img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+
+}
+#image3 img{
+    width: 300px;
+    height: 300px;
+    margin-top: 90%;
+    margin-left: 180%;
+
+}
+#name{
+    font-weight: 400;
+    font-size: 4rem;
+}
+#name p{
+    position: absolute;
+    top: 46%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
+#name u{
+    position: absolute;
+    top: 55%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+#name u{
+    text-decoration: underline rgb(65, 239, 65);
+}
+#find p{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 70%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
+#find i{
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#find i:hover{
+    background-color: rgb(65, 239, 65);
+}
+
